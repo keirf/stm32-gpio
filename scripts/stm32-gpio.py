@@ -11,4 +11,5 @@ def cmd(cmd):
     return f.read(1).decode('utf-8')
 
 sts = cmd(sys.argv[1])
-print(sts)
+if sys.argv[1] == 's':
+    print(sts)
